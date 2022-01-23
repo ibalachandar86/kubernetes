@@ -51,3 +51,7 @@ sudo kubeadm join **********************
 kubectl get nodes (You should get below master/worker nodes details)
 kubectl get pods -A -o wide
 service kubelet status
+
+# Starting/Stopping the nodes
+Start the master node first then the data node
+Stop the data node first then the master node
