@@ -24,3 +24,7 @@ k8 get deployments
 k8 rollout status deployment/nginx-deployment
 k8 get pods
 k8 exec -it memory-demo -- /bin/bash
+
+# Controllers
+
+# Auto Scalaing (Horizontal POD Scaling)
